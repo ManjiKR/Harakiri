@@ -13,9 +13,9 @@ pip install Harakiri
 ## 사용
 
 ```py
-import Harakiri
+import harakiri
 
-client = Harakiri.Client()
+client = harakiri.Client()
 ```
 
 ### Manji
