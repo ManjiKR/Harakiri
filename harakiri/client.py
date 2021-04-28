@@ -11,7 +11,7 @@ from harakiri.model import (
 class Client:
     @staticmethod
     async def get(path: str, params: Optional[Dict[str, Any]] = None):
-        url = "http://manjiapi.ombe.xyz/" + path
+        url = "http://manjiapi.ombe.xyz" + path
         async with aiohttp.ClientSession() as session:
             async with session.get(url=url, params=params) as resp:
                 return await resp.json()

@@ -3,7 +3,7 @@ from setuptools import setup
 
 setup(
     name="Harakiri",
-    version="0.1.2",
+    version="0.1.3",
     license="Apache-2.0",
     author="ombe1229",
     author_email="h3236516@gmail.com",
