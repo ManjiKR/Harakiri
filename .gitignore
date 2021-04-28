@@ -2,3 +2,7 @@ build
 dist
 pypi
 Harakiri.egg-info
+test.py
+client copy.py
+model copy.py
+__pycache__
